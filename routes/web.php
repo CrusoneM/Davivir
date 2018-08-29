@@ -41,6 +41,6 @@ Route::get('/porque', function () {
 Route::get('/precalifica', function () {
     return view('precalifica');
 });
-Route::get('/desarrollo-sanpatricio-nuevo', function () {
-    return view('desarrollo-sanpatricio-nuevo');
+Route::get('/desarrollo-nuevo', function () {
+    return view('desarrollo-nuevo');
 });
