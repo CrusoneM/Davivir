@@ -41,6 +41,21 @@ Route::get('/porque', function () {
 Route::get('/precalifica', function () {
     return view('precalifica');
 });
+
+// Templates (Borrar)
 Route::get('/desarrollo-nuevo', function () {
     return view('desarrollo-nuevo');
+});
+Route::get('/modelo-nuevo', function () {
+    return view('modelo-nuevo');
+});
+
+// Desarrollos
+Route::get('/desarrollo/montecarlo', function () {
+    return view('desarrollos/montecarlo');
+});
+
+// Modelos
+Route::get('/modelo/fortezza', function () {
+    return view('modelos/fortezza');
 });
